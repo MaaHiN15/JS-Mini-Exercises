@@ -1,0 +1,45 @@
+:root{
+    --spacing: 10px;
+    --color: red;
+    --blur: 10px;    
+}
+
+
+body{
+    background-color: rgb(252, 251, 251);
+}
+
+.content{
+    font-size: 60px;
+    color: rgb(72, 72, 72);
+    font-style: italic;
+    font-variant: small-caps;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.things{
+    font-size: 30px;
+    color: rgb(34, 9, 9);
+}
+.spacing, .color, .blur{
+    float: left;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+.img{
+    margin-left: 25%;
+    width: 45%;
+    height: 500px;
+}
+span{
+    color: var(--color);
+}
+img{
+    width: 100%;
+    height: 500px;
+    padding: var(--spacing);
+    /* padding: 100px; */
+    background-color: var(--color);
+    filter: blur(var(--blur));
+} 
