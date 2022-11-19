@@ -52,14 +52,16 @@ body{
     margin-top: 45%;
 }
 .num-6{
-    margin-left: 95%;
-    margin-top: 45%;
-}
-.num-3{
     margin-left: 50%;
     margin-top: 92%;
 }
+.num-3{    
+    margin-left: 95%;
+    margin-top: 45%;
+}
+
 .after{
     color: rgb(225, 14, 14);
     transform: scale(1.5);
+    text-shadow: 10px;
 }

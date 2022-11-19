@@ -1,7 +1,7 @@
 const setSecond = document.querySelector('.sec');
 const setMinute = document.querySelector('.min');
 const setHour = document.querySelector('.hour');
-const number = document.querySelectorAll('.number');
+const number = document.querySelectorAll(".number");
 
 setSecond.style.background = 'white';
 setMinute.style.width = '40%';
@@ -27,12 +27,37 @@ function timing(){
     // output
     console.log(`${h} : ${m} : ${s}`)
 
-    if ( s == 15 || s == 30 || s == 45 || s == 0) {
-        number.classList.add("after");
+    
+    function changing(n){
+        if( s==15){
+            document.getElementById('3').classList.add('after');
+        }
+        else{
+            document.getElementById('3').classList.remove('after');
+        }
+
+        if( s==30){
+            document.getElementById('6').classList.add('after');
+        }
+        else{
+            document.getElementById('6').classList.remove('after');
+        }
+        if( s==45){
+            document.getElementById('9').classList.add('after');
+        }
+        else{
+            document.getElementById('9').classList.remove('after');
+        }
+        if( s==0){
+            document.getElementById('12').classList.add('after');
+        }
+        else{
+            document.getElementById('12').classList.remove('after');
+        }
     }
-    else{
-        number.classList.remove('after');
-    }
+
+    number.forEach(changing)
+
 }
 
 setInterval( timing, 1000);
