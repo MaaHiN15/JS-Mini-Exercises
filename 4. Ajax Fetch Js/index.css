@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+    background: linear-gradient(to right,  rgb(69, 255, 255), white );
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(8, 96, 168);
+    box-sizing: border-box;
+    box-shadow: rgb(15, 174, 231) 0px 4px 16px, rgb(15, 167, 222) 0px 8px 24px, rgb(18, 168, 223) 0px 16px 56px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: none;
+    flex-direction: column;
+}
+input{
+    border: 1px solid rgba(0, 255, 255, 0.703);
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hover{
+    border: 2px dashed rgb(255, 255, 255);
+    transform: scale(1.5);
+    border-radius: 20px;
+}
+input::-webkit-input-placeholder {
+    text-align: center;
+    color: rgb(23, 142, 160);
+  }
+
+ul {
+    list-style-type: none;
+    display: contents;
+}
+
+ul >li {
+    width: 250px;
+    height: 45px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px 20px; 
+    text-transform: capitalize;  
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+span{
+    margin-left: 8px;
+}
+.hl{
+    color: red;
+}
