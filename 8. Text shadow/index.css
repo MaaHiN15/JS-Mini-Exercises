@@ -1,0 +1,21 @@
+body{
+    background-image: url(media/hd-wallpaper-3119826_1920.jpg);
+    background-repeat:no-repeat;   
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.hero{
+    width:600px;
+    height: 500px;
+    border: 2px solid white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-size: 80px;
+    color: rgb(238, 196, 149);
+    text-shadow: 10px 10px 2px rgb(225, 183, 99);
+}
